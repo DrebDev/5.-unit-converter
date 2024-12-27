@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Poppins", serif;
+}
+
+.hero {
+    background: #6943fe;
+    color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#unit {
+    outline: none;
+    width: 95px;
+    height: 85px;
+    background: #6943fe;
+    border: 3px solid rgba(241, 248, 246, 0.637);
+    border-radius: 5px;
+    margin: 15px;
+
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+input[type="number"]::-webkit-inner-spin-button, 
+input[type="number"]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; margin: 0;
+}
+
+#convert-btn {
+    width: 95px;
+    height: 35px;
+    background-color: #f4f4f4;
+    color: #6943fe;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main {
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+.section {
+    width: 70%;
+    background: white;
+    padding: 5px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px gainsboro;
+    color: #5A537B;
+}
